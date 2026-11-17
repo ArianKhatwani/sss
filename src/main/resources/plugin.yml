@@ -1,0 +1,15 @@
+name: DiamondSMP
+version: 1.0.0
+main: ru.chaossmp.classes.DiamondSMP
+api-version: '1.21'
+author: DiamondSMP
+description: Система постоянных пассивных классов для DiamondSMP
+commands:
+  class:
+    description: Выбор и информация о классе
+    usage: /class [info|reset <ник>|reload]
+    aliases: [classes]
+permissions:
+  diamondsmp.admin:
+    description: Управление классами игроков
+    default: op

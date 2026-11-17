@@ -1,0 +1,38 @@
+# DiamondSMP 1.0.0 — настройки пассивных способностей.
+# Урон задаётся в единицах здоровья Minecraft (2.0 = одно сердце).
+combat:
+  berserk:
+    # Максимальная прибавка урона при критически низком здоровье.
+    max-bonus-damage: 5.0
+    # При каком проценте здоровья бонус достигает максимума.
+    low-health-percent: 0.25
+    kill-speed-seconds: 5
+    kill-speed-amplifier: 1
+    aura-health-percent: 0.45
+  guardian:
+    damage-reduction-percent: 12.0
+    charge-idle-seconds: 8
+    charged-hit-absorption-percent: 35.0
+  shadow:
+    dodge-chance-percent: 18.0
+    backstab-bonus-damage: 3.0
+    kill-invisibility-seconds: 3
+  thunder:
+    third-hit-bonus-damage: 2.0
+  ranger:
+    long-shot-min-distance: 22.0
+    # Длительность свечения помеченной цели.
+    mark-seconds: 4
+    long-shot-bonus-damage: 3.0
+    mark-seconds: 4
+  alchemist:
+    buff-seconds: 8
+  rift:
+    dodge-chance-percent: 14.0
+    kill-effect-radius: 4.0
+
+visual:
+  enabled: true
+  # Частота фоновых частиц, в тиках. Увеличьте значение для меньшей нагрузки.
+  ambient-period-ticks: 12
+  particles-per-effect: 12
